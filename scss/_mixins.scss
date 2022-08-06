@@ -1,0 +1,26 @@
+// MIXINS
+
+@mixin sticky-footer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin flex-center($dsp: flex, $algn: center, $jcc: center) {
+  display: $dsp;
+  align-items: $algn;
+  justify-content: $jcc;
+}
+
+@mixin list-unstyled {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@mixin link-style {
+  display: inline-block;
+  text-decoration: none;
+}
