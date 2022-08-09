@@ -183,9 +183,12 @@ body {
   }
 }
 @media only screen and (min-width: 1024px) {
-  body {
-    background-image: url("/images/oposity-tumaloq.svg");
+  .site__body {
     background-repeat: no-repeat;
-    background-position: calc(50% + 476px) calc(50% - 20px);
+    background-position: calc(50% + 10px) calc(50% - 20px);
+    background-image: url("/images/oposity-tumaloq.svg");
+  }
+
+  site-header__boss {
   }
 }

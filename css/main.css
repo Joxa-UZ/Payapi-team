@@ -610,10 +610,10 @@ body {
   }
 }
 @media only screen and (min-width: 1024px) {
-  body {
-    background-image: url("/images/oposity-tumaloq.svg");
+  .site__body {
     background-repeat: no-repeat;
-    background-position: calc(50% + 476px) calc(50% - 20px);
+    background-position: calc(50% + 10px) calc(50% - 20px);
+    background-image: url("/images/oposity-tumaloq.svg");
   }
 }
 .footer {
@@ -726,7 +726,7 @@ body {
   line-height: 36px;
   text-align: center;
   letter-spacing: -0.246154px;
-  color: #36536B;
+  color: #36536b;
 }
 
 .pricing__list {
@@ -756,7 +756,7 @@ body {
   line-height: 32px;
   text-align: center;
   letter-spacing: -0.184615px;
-  color: #BA4270;
+  color: #ba4270;
 }
 
 .pricing__mini-price {
@@ -767,7 +767,7 @@ body {
   line-height: 72px;
   text-align: center;
   letter-spacing: -0.430769px;
-  color: #36536B;
+  color: #36536b;
 }
 
 .pricing__mini-text {
@@ -795,7 +795,7 @@ body {
   content: "";
   width: 260px;
   height: 1px;
-  background-color: #36536B;
+  background-color: #36536b;
   mix-blend-mode: normal;
   opacity: 0.25;
 }
@@ -808,7 +808,7 @@ body {
   content: "";
   width: 260px;
   height: 1px;
-  background-color: #36536B;
+  background-color: #36536b;
   mix-blend-mode: normal;
   opacity: 0.25;
 }
@@ -882,7 +882,7 @@ body {
   font-size: 16px;
   line-height: 28px;
   text-align: left;
-  color: #36536B;
+  color: #36536b;
 }
 
 .pricing__item-link {
@@ -894,8 +894,8 @@ body {
   font-size: 15px;
   line-height: 18px;
   letter-spacing: -0.115385px;
-  color: #36536B;
-  border: 1px solid #36536B;
+  color: #36536b;
+  border: 1px solid #36536b;
   border-radius: 24px;
   text-decoration: none;
 }
@@ -903,7 +903,7 @@ body {
 .pricing__item-link:hover {
   color: #fff;
   transition: 0.5s;
-  background-color: #36536B;
+  background-color: #36536b;
 }
 
 .pricing__item:nth-child(2) .pricing__things-item:nth-child(4) {
@@ -1123,7 +1123,7 @@ body {
     font-size: 15px;
     line-height: 28px;
     text-align: center;
-    color: #6C8294;
+    color: #6c8294;
   }
   .pricing__item-link {
     margin-left: 20px;
