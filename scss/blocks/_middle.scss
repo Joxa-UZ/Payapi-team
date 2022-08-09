@@ -1,0 +1,148 @@
+.middle {
+  padding-top: 85px;
+  padding-bottom: 80px;
+  background: #1b262f;
+  background-image: url("/images/oposity-tumaloq.svg");
+  background-position: calc(50%) calc(50% - 475px);
+  background-repeat: no-repeat;
+  background-size: 780px;
+}
+
+.middle__list {
+  max-width: 366px;
+  @include list-unstyled;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.middle__itms {
+  margin-bottom: 42px;
+}
+
+.middle__text-box {
+  max-width: 327px;
+  margin: 0 auto;
+}
+.middle__big-text {
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.246154px;
+
+  color: #fbfcfe;
+}
+.middle__mini-text {
+  margin: 0;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #fbfcfe;
+
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.middle__buton-box {
+  width: 133px;
+  margin: 0 auto;
+}
+.middle__butom {
+  display: inline-block;
+  padding: 15px 32px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+  @include link-style;
+  border: 1px solid #fbfcfe;
+  border-radius: 24px;
+}
+
+@media screen and (min-width: 720px) {
+  .middle {
+    padding: 88px 0;
+  }
+
+  .middle__list {
+    max-width: 495px;
+  }
+  .middle__text-box {
+    max-width: 457px;
+  }
+  .middle__big-text {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .middle__mini-text {
+    margin-bottom: 32px;
+  }
+  .middle__butom {
+    transition: all 0.5s ease;
+
+    &:hover {
+      background: #ffffff;
+      color: #1b262f;
+    }
+    &:active {
+      color: #fbfcfe;
+      border: 1px solid #fbfcfe;
+      background: #1b262f;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .middle {
+    padding: 100px 0;
+    background-position: calc(50% - 509px) calc(50% + -188px);
+  }
+  .middle__big-boss {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .middle__list {
+    margin-bottom: 0;
+  }
+  .middle__itms {
+    margin-bottom: 54px;
+    &:nth-child(4) {
+      margin-bottom: 0;
+    }
+    &:nth-child(5) {
+      margin-bottom: 0;
+    }
+    &:nth-child(6) {
+      margin-bottom: 0;
+    }
+  }
+
+  .middle__text-box {
+    max-width: 445px;
+  }
+  .middle__big-text {
+    font-size: 48px;
+    text-align: left;
+    line-height: 56px;
+  }
+  .middle__mini-text {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: left;
+  }
+  .middle__buton-box {
+    margin-left: 0;
+  }
+}
