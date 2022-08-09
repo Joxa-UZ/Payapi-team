@@ -6,6 +6,3 @@ elModalOpenButton.addEventListener("click", function () {
     elModalOpenButton.classList.toggle("active--btn");
 });
 
-  elModalOpenlink.classList.toggle("navbar--active");
-  elModalOpenButton.classList.toggle("active--btn");
-});
