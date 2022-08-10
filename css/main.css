@@ -617,6 +617,471 @@ body {
     background-image: url("/images/oposity-tumaloq.svg");
   }
 }
+.about_finance_inner {
+  padding: 0 140px;
+}
+.about_finance_inner_wrapper_title {
+  width: 100%;
+  max-width: 620px;
+}
+.about_finance_inner_title {
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.430769px;
+  color: #36536b;
+}
+
+.text_boxes {
+  display: flex;
+  flex-direction: column;
+}
+.text_boxes_wrapper_title {
+  width: 100%;
+  max-width: 255px;
+}
+.text_boxes_wrapper_desc {
+  width: 100%;
+  max-width: 635px;
+}
+.text_boxes_first {
+  width: 100%;
+  max-width: 920px;
+  margin-bottom: 56px;
+  display: flex;
+  align-items: center;
+}
+.text_boxes_second {
+  width: 100%;
+  max-width: 920px;
+  display: flex;
+}
+.text_boxes_title {
+  margin-right: 30px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.246154px;
+  color: #36536b;
+}
+.text_boxes_desc {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about_finance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_finance_inner {
+    padding: 0 15px;
+  }
+  .about_finance_inner_wrapper_title {
+    width: 100%;
+    max-width: 573px;
+    padding: 32px;
+  }
+  .about_finance_inner_title {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .text_boxes_wrapper_title {
+    width: 100%;
+    max-width: 223px;
+  }
+  .text_boxes_wrapper_desc {
+    width: 100%;
+    max-width: 456px;
+  }
+  .text_boxes_first {
+    width: 100%;
+    max-width: 689px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .text_boxes_second {
+    width: 100%;
+    max-width: 689px;
+    display: flex;
+  }
+  .text_boxes_title {
+    margin-right: 10px;
+  }
+  .text_boxes_desc {
+    margin-top: 38px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .about_finance_inner {
+    padding: 0 10px;
+  }
+  .about_finance_inner_wrapper_title {
+    width: 100%;
+    max-width: 327px;
+  }
+  .about_finance_inner_title {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.246154px;
+  }
+  .text_boxes {
+    display: flex;
+  }
+  .text_boxes_wrapper_desc {
+    width: 100%;
+    max-width: 327px;
+  }
+  .text_boxes_first {
+    width: 100%;
+    max-width: 327px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text_boxes_second {
+    width: 100%;
+    max-width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text_boxes_title {
+    margin-right: 0px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .text_boxes_desc {
+    text-align: center;
+  }
+}
+.members {
+  padding: 72px 0 72px 0;
+  z-index: 10;
+  background-image: url("/images/desk_bg_circle.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50% - 710px);
+}
+.members_img {
+  width: 100%;
+  max-width: 1440px;
+}
+.members_img_tablet {
+  display: none;
+}
+.members_img_mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .members {
+    padding: 92px 0 64px 0;
+    background-image: none;
+  }
+  .members_img {
+    display: none;
+  }
+  .members_img_tablet {
+    width: 100%;
+    max-width: 1440px;
+    display: block;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .members {
+    padding: 76px 0 48px 0;
+  }
+  .members_img_tablet {
+    display: none;
+  }
+  .members_img_mobile {
+    width: 100%;
+    max-width: 1440px;
+    display: block;
+  }
+}
+.info {
+  padding-top: 0px;
+}
+.info_element {
+  display: flex;
+}
+.info_card {
+  width: 350px;
+  border-top: 2px solid rgb(236, 238, 240);
+  border-bottom: 2px solid rgb(236, 238, 240);
+}
+.info_card + .info_card {
+  margin-left: 30px;
+}
+.info_title {
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.info_number {
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.430769px;
+  color: #ba4270;
+}
+
+.info_text_boxes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+}
+.info_text_boxes_wrapper_title {
+  width: 100%;
+  max-width: 255px;
+}
+.info_text_boxes_wrapper_desc {
+  width: 100%;
+  max-width: 635px;
+}
+.info_text_boxes_first {
+  width: 100%;
+  max-width: 920px;
+  margin-bottom: 56px;
+  display: flex;
+  align-items: center;
+}
+.info_text_boxes_second {
+  width: 100%;
+  max-width: 920px;
+  display: flex;
+}
+.info_text_boxes_title {
+  margin-right: 30px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.246154px;
+  color: #36536b;
+}
+.info_text_boxes_desc {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+}
+
+.info_email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info_email_title {
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+.info_email_form {
+  position: relative;
+}
+.info_email_input {
+  padding: 16px 276px 14px 27px;
+  border: none;
+  background: #fbfcfe;
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+}
+.info_email_btn {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  padding: 16px 24px 14px 26px;
+  border: none;
+  background: #ba4270;
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+  border-radius: 24px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .info {
+    padding-bottom: 100px;
+  }
+  .info_element {
+    display: flex;
+  }
+  .info_card {
+    width: 223px;
+    padding: 44px 0 16px 0;
+    border-top: 2px solid rgb(236, 238, 240);
+    border-bottom: 2px solid rgb(236, 238, 240);
+  }
+  .info_card + .info_card {
+    margin-left: 10px;
+  }
+  .info_title {
+    display: none;
+  }
+  .info_text_boxes {
+    margin-top: 64px;
+  }
+  .info_text_boxes_wrapper_title {
+    width: 100%;
+    max-width: 223px;
+  }
+  .info_text_boxes_wrapper_desc {
+    width: 100%;
+    max-width: 456px;
+  }
+  .info_text_boxes_first {
+    width: 100%;
+    max-width: 689px;
+    margin-bottom: 64px;
+  }
+  .info_text_boxes_second {
+    width: 100%;
+    max-width: 689px;
+    display: flex;
+  }
+  .info_text_boxes_title {
+    margin-right: 10px;
+  }
+  .info_email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .info {
+    padding-bottom: 80px;
+  }
+  .info_element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid rgb(236, 238, 240);
+    border-bottom: 2px solid rgb(236, 238, 240);
+  }
+  .info_card {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0 16px 0;
+    border-top: none;
+    border-bottom: none;
+  }
+  .info_card + .info_card {
+    margin-left: 0px;
+    margin-top: 32px;
+  }
+  .info_title {
+    display: block;
+  }
+  .info_text_boxes {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info_text_boxes_wrapper_desc {
+    width: 100%;
+    max-width: 327px;
+  }
+  .info_text_boxes_first {
+    width: 100%;
+    max-width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+  .info_text_boxes_second {
+    width: 100%;
+    max-width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .info_text_boxes_title {
+    margin-right: 0px;
+    text-align: center;
+  }
+  .info_text_boxes_desc {
+    text-align: center;
+  }
+  .info_email_title {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.246154px;
+  }
+  .info_email_form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .info_email_input {
+    width: 100%;
+    max-width: 327px;
+    margin-bottom: 16px;
+    padding: 16px 158px 14px 27px;
+  }
+  .info_email_btn {
+    width: 100%;
+    max-width: 327px;
+    position: static;
+    padding: 16px 85px 14px 80px;
+  }
+}
 .footer {
   padding-top: 47px;
   padding-bottom: 57px;

@@ -1,0 +1,160 @@
+.about_finance {
+  &_inner {
+    padding: 0 140px;
+    &_wrapper_title {
+      width: 100%;
+      max-width: 620px;
+    }
+    &_title {
+      font-family: "DM Serif Display", serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.430769px;
+      color: #36536b;
+    }
+  }
+}
+.text_boxes {
+  display: flex;
+  flex-direction: column;
+  &_wrapper_title {
+    width: 100%;
+    max-width: 255px;
+  }
+  &_wrapper_desc {
+    width: 100%;
+    max-width: 635px;
+  }
+  &_first {
+    width: 100%;
+    max-width: 920px;
+    margin-bottom: 56px;
+    display: flex;
+    align-items: center;
+  }
+  &_second {
+    width: 100%;
+    max-width: 920px;
+    display: flex;
+  }
+  &_title {
+    margin-right: 30px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.246154px;
+    color: #36536b;
+  }
+  &_desc {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6c8294;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .about_finance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &_inner {
+      padding: 0 15px;
+      &_wrapper_title {
+        width: 100%;
+        // background-color: red;
+        max-width: 573px;
+        padding: 32px;
+      }
+      &_title {
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+      }
+    }
+  }
+  .text_boxes {
+    &_wrapper_title {
+      width: 100%;
+      max-width: 223px;
+    }
+    &_wrapper_desc {
+      width: 100%;
+      max-width: 456px;
+    }
+    &_first {
+      width: 100%;
+      max-width: 689px;
+      margin-bottom: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    &_second {
+      width: 100%;
+      max-width: 689px;
+      display: flex;
+    }
+    &_title {
+      margin-right: 10px;
+    }
+    &_desc {
+      margin-top: 38px;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .about_finance {
+    &_inner {
+      padding: 0 10px;
+      &_wrapper_title {
+        width: 100%;
+        max-width: 327px;
+      }
+      &_title {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.246154px;
+      }
+    }
+  }
+  .text_boxes {
+    display: flex;
+    &_wrapper_desc {
+      width: 100%;
+      max-width: 327px;
+    }
+    &_first {
+      width: 100%;
+      max-width: 327px;
+      margin-bottom: 56px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &_second {
+      width: 100%;
+      max-width: 327px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &_title {
+      margin-right: 0px;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+    }
+    &_desc {
+      text-align: center;
+    }
+  }
+}

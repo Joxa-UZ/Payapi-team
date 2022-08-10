@@ -1,0 +1,50 @@
+.members {
+  padding: 72px 0 72px 0;
+  z-index: 10;
+  background-image: url("/images/desk_bg_circle.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50% - 710px);
+  &_img {
+    width: 100%;
+    max-width: 1440px;
+
+    &_tablet {
+      display: none;
+    }
+    &_mobile {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .members {
+    padding: 92px 0 64px 0;
+    background-image: none;
+    &_img {
+      display: none;
+      &_tablet {
+        width: 100%;
+        max-width: 1440px;
+        display: block;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .members {
+    padding: 76px 0 48px 0;
+
+    &_img {
+      &_tablet {
+        display: none;
+      }
+      &_mobile {
+        width: 100%;
+        max-width: 1440px;
+        display: block;
+      }
+    }
+  }
+}
