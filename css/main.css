@@ -2446,7 +2446,7 @@ label {
 
 .contact-info__span {
   position: absolute;
-  bottom: 15px;
+  bottom: 50px;
   opacity: 0;
   font-weight: 400;
   font-size: 11px;
@@ -2454,6 +2454,10 @@ label {
   letter-spacing: -0.0846154px;
   color: #FF0000;
   mix-blend-mode: normal;
+}
+
+.contact-info__two-label .contact-info__span {
+  bottom: -20px;
 }
 
 .contact-info__span--gmail {
@@ -2655,7 +2659,29 @@ label {
     font-size: 32px;
   }
 }
+@media only screen and (min-width: 584px) {
+  .contact-info__one-label .contact-info__span {
+    top: 320px;
+  }
+  .contact-info__two-label .contact-info__span {
+    top: 390px;
+  }
+}
+@media only screen and (min-width: 648px) {
+  .contact-info__one-label .contact-info__span {
+    bottom: -20px;
+  }
+  .contact-info__two-label .contact-info__span {
+    bottom: -90px;
+  }
+}
 @media only screen and (min-width: 720px) {
+  .contact-info__one-label .contact-info__span {
+    top: 390px;
+  }
+  .contact-info__two-label .contact-info__span {
+    top: 460px;
+  }
   .contact-info {
     display: flex;
     align-items: center;
@@ -2675,6 +2701,12 @@ label {
   }
 }
 @media only screen and (min-width: 1200px) {
+  .contact-info__one-label .contact-info__span {
+    top: 340px;
+  }
+  .contact-info__two-label .contact-info__span {
+    top: 420px;
+  }
   .contact-info {
     flex-direction: row;
     align-items: center;
