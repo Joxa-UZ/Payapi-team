@@ -2396,11 +2396,11 @@ body {
 }
 
 label {
+  position: relative;
   display: flex;
 }
 
 .contact-info__inputs {
-  position: relative;
   width: 100%;
   max-width: 327px;
   margin-bottom: 37px;
@@ -2446,7 +2446,6 @@ label {
 
 .contact-info__span {
   position: absolute;
-  bottom: 50px;
   opacity: 0;
   font-weight: 400;
   font-size: 11px;
@@ -2457,11 +2456,11 @@ label {
 }
 
 .contact-info__two-label .contact-info__span {
-  bottom: calc(50% - 100px);
+  bottom: calc(50% - 20px);
 }
 
 .contact-info__one-label .contact-info__span {
-  bottom: calc(50% - 30px);
+  bottom: calc(50% - 20px);
 }
 
 .contact-info__inputs:not(:-moz-placeholder-shown):not(:focus):invalid {
