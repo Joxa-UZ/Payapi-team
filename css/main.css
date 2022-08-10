@@ -558,9 +558,9 @@ body {
 
 @media only screen and (min-width: 720px) {
   body {
-    background-image: url("/images/oposity-tumaloq.svg");
+    background-image: url(../images/circle-joxa.svg);
     background-repeat: no-repeat;
-    background-position: calc(50% + 3px) calc(50% - 205px);
+    background-position: calc(50% + 460px) calc(50% - 345px);
   }
   .navbar__btn {
     display: none;
@@ -607,13 +607,6 @@ body {
     color: #36536b;
     mix-blend-mode: normal;
     opacity: 0.7;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .site__body {
-    background-repeat: no-repeat;
-    background-position: calc(50% + 10px) calc(50% - 20px);
-    background-image: url("/images/oposity-tumaloq.svg");
   }
 }
 .footer {
@@ -1835,4 +1828,394 @@ body {
 }
 .contact {
   padding-top: 48px;
+}
+
+.contact__theme-box {
+  width: 100%;
+  max-width: 327px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact__theme {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.246154px;
+  color: #36536B;
+}
+
+.contact-info {
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-info__form {
+  padding-bottom: 80px;
+}
+
+.contact-info__input-box {
+  width: 100%;
+  max-width: 327px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+label {
+  display: flex;
+}
+
+.contact-info__inputs {
+  position: relative;
+  width: 100%;
+  max-width: 327px;
+  margin-bottom: 37px;
+  padding-left: 20px;
+  padding-bottom: 16px;
+  border: none;
+  border-bottom: 1px solid rgba(102, 132, 156, 0.231372549);
+  background-color: transparent;
+  outline: none;
+  opacity: 0.5;
+}
+
+.contact-info__inputs:focus {
+  opacity: 1;
+}
+
+.contact-info__inputs::-moz-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536B;
+  mix-blend-mode: normal;
+}
+
+.contact-info__inputs:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536B;
+  mix-blend-mode: normal;
+}
+
+.contact-info__inputs::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536B;
+  mix-blend-mode: normal;
+}
+
+.contact-info__span {
+  position: absolute;
+  bottom: 15px;
+  opacity: 0;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.0846154px;
+  color: #FF0000;
+  mix-blend-mode: normal;
+}
+
+.contact-info__span--gmail {
+  bottom: -60px;
+}
+
+.contact-info__inputs:not(:-moz-placeholder-shown):not(:focus):invalid {
+  border-bottom: 1px solid #f00;
+  opacity: 1;
+  color: #f00;
+}
+
+.contact-info__inputs:not(:-ms-input-placeholder):not(:focus):invalid {
+  border-bottom: 1px solid #f00;
+  opacity: 1;
+  color: #f00;
+}
+
+.contact-info__inputs:not(:placeholder-shown):not(:focus):invalid {
+  border-bottom: 1px solid #f00;
+  opacity: 1;
+  color: #f00;
+}
+
+.contact-info__inputs:not(:-moz-placeholder-shown):not(:focus):invalid + .contact-info__span {
+  opacity: 1;
+}
+
+.contact-info__inputs:not(:-ms-input-placeholder):not(:focus):invalid + .contact-info__span {
+  opacity: 1;
+}
+
+.contact-info__inputs:not(:placeholder-shown):not(:focus):invalid + .contact-info__span {
+  opacity: 1;
+}
+
+.contact-info__textarea {
+  width: 100%;
+  max-width: 327px;
+  margin-bottom: 24px;
+  padding-left: 20px;
+  height: 89px;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(102, 132, 156, 0.231372549);
+  outline: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536B;
+}
+
+.contact-info__textarea::-moz-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536B;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.contact-info__textarea:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536B;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.contact-info__textarea::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536B;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.contact-info__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.contact-info__check-box {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border: none;
+  background-color: #36536B;
+  opacity: 0.25;
+}
+
+.contact-info__inputss:checked + .contact-info__check-box {
+  background-image: url(../images/checkboxx.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.contact-info__inputss:disabled + .contact-info__check-box {
+  opacity: 0.05;
+}
+
+.contact-info__inputss:checked + .contact-info__check-box + .contact-info__check-text {
+  opacity: 0;
+}
+
+.contact-info__check-text {
+  width: 100%;
+  max-width: 277px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536B;
+}
+
+.contact-info__link {
+  display: inline-block;
+  padding-top: 16px;
+  padding-right: 49px;
+  padding-bottom: 14px;
+  padding-left: 51px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #36536B;
+  text-decoration: none;
+  border: 1px solid #36536B;
+  border-radius: 24px;
+}
+
+.contact-info__link:hover {
+  background-color: #36536B;
+  color: #fff;
+  transition: 1s;
+}
+
+.sponsors__theme-box {
+  width: 100%;
+  max-width: 327px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sponsors__theme {
+  margin: 0;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.184615px;
+  color: #36536B;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.sponsors__list {
+  width: 100%;
+  max-width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  padding-top: 38px;
+  list-style: none;
+}
+
+.sponsors__item {
+  margin-bottom: 45px;
+}
+
+@media only screen and (min-width: 339px) {
+  .sponsors__theme-box {
+    width: 100%;
+    max-width: 380px;
+  }
+  .sponsors__theme {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 362px) {
+  .contact__theme {
+    font-size: 32px;
+  }
+}
+@media only screen and (min-width: 720px) {
+  .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact__theme-box {
+    width: 100%;
+    max-width: 533px;
+  }
+  .contact__theme {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .contact-info {
+    flex-direction: row;
+    align-items: center;
+  }
+  .contact-info__input-box {
+    margin: 0;
+    margin-right: auto;
+  }
+  .sponsors__theme-box {
+    max-width: 445px;
+    margin: 0;
+    margin-right: auto;
+  }
+  .sponsors__theme {
+    text-align: left;
+  }
+  .sponsors__list {
+    max-width: 541px;
+  }
+  .sponsors__item {
+    max-width: 130px;
+    margin-bottom: 0;
+  }
+  .sponsors__item:first-child {
+    margin-right: 63px;
+    margin-bottom: 55px;
+  }
+  .sponsors__item:nth-child(2) {
+    margin-right: 63px;
+    margin-bottom: 55px;
+  }
+  .sponsors__item:nth-child(3) {
+    margin-bottom: 55px;
+  }
+  .contact__theme-box {
+    max-width: 730px;
+    margin: 0;
+    margin-right: auto;
+  }
+  .contact__theme {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.430769px;
+    text-align: left;
+    color: #36536B;
+  }
+  .contact-info__input-box {
+    max-width: 445px;
+  }
+  .contact-info__form {
+    max-width: 445px;
+  }
+  .contact-info__inputs {
+    width: 100%;
+    max-width: 445px;
+  }
+  .contact-info__textarea {
+    max-width: 445px;
+  }
+  .contact-info__label {
+    justify-content: start;
+  }
+  .contact-info__check-box {
+    margin-right: 26px;
+  }
+  .contact-info__form {
+    padding-bottom: 0px;
+  }
 }/*# sourceMappingURL=main.css.map */
