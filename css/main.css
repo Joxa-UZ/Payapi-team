@@ -720,13 +720,15 @@ body {
 }
 @media only screen and (max-width: 720px) {
   .about_finance_inner {
-    padding: 0 10px;
+    padding: 0;
   }
   .about_finance_inner_wrapper_title {
     width: 100%;
     max-width: 327px;
+    padding: 0;
   }
   .about_finance_inner_title {
+    padding: 0 10px;
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -0.246154px;
@@ -775,6 +777,7 @@ body {
 .members_img {
   width: 100%;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .members_img_tablet {
   display: none;
@@ -1066,13 +1069,13 @@ body {
     width: 100%;
     max-width: 327px;
     margin-bottom: 16px;
-    padding: 16px 158px 14px 27px;
+    padding: 16px 117px 14px 20px;
   }
   .info_email_btn {
     width: 100%;
     max-width: 327px;
     position: static;
-    padding: 16px 85px 14px 80px;
+    padding: 16px 80px 14px 75px;
   }
 }
 .footer {
