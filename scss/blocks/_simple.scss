@@ -130,6 +130,23 @@
       margin-right: 10px;
     }
   }
+
+  .simple__text-box {
+    max-width: 445px;
+    margin: 0 auto;
+    animation: anni 3s infinite;
+  }
+
+  @keyframes anni {
+    0%,
+    100% {
+      transform: translateX(25px);
+    }
+
+    50% {
+      transform: translateY(0);
+    }
+  }
 }
 @media screen and (min-width: 1024px) {
   .simple {
