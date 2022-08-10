@@ -74,10 +74,10 @@ label{
     mix-blend-mode: normal;
 }
 .contact-info__two-label .contact-info__span{
-    bottom: -20px;
+    bottom: calc(50% - 100px);
 }
-.contact-info__span--gmail{
-    bottom: -60px;
+.contact-info__one-label .contact-info__span{
+    bottom: calc(50% - 30px);
 }
 .contact-info__inputs:not(:placeholder-shown):not(:focus):invalid{
     border-bottom: 1px solid #f00;
