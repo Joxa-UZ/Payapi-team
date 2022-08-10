@@ -1,0 +1,98 @@
+.easy {
+  padding-top: 80px;
+}
+
+.easy__img {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+.easy__text-box {
+  max-width: 328px;
+  margin: 0 auto;
+}
+.easy__big-text {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.276923px;
+
+  color: #36536b;
+}
+.easy__mini-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 187% */
+
+  text-align: center;
+
+  color: #6c8294;
+}
+@media screen and (min-width: 720px) {
+  .easy {
+    padding-top: 100px;
+  }
+
+  .easy__img {
+    width: 392px;
+  }
+  .easy__text-box {
+    max-width: 573px;
+    animation: anni 3s infinite;
+  }
+  @keyframes anni {
+    0%,
+    100% {
+      transform: translateX(15px);
+    }
+
+    50% {
+      transform: translateY(0);
+    }
+  }
+
+  .easy__big-text {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .easy__mini-text {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .easy {
+    padding-top: 150px;
+  }
+
+  .easy__big-bos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .easy__img {
+    width: 475px;
+  }
+  .easy__text-box {
+    margin-left: 0;
+    max-width: 445px;
+  }
+  .easy__big-text {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+  }
+  .easy__mini-text {
+    text-align: left;
+    font-size: 15px;
+    line-height: 28px;
+  }
+}

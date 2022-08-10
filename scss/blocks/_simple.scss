@@ -1,0 +1,205 @@
+.simple {
+  padding: 80px 0;
+}
+
+.simple__img {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.simple__big-text {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.276923px;
+  color: #36536b;
+}
+.simple__mini-text {
+  margin: 0;
+  margin-bottom: 80px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #6c8294;
+}
+.simple__list {
+  @include list-unstyled;
+  margin-bottom: 80px;
+}
+.simple__itms {
+  padding-bottom: 48px;
+  &::before {
+    content: "";
+    display: block;
+    width: 106px;
+    height: 106px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+    background-image: url("/images/personal.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &:nth-child(2)::before {
+    background-image: url("/images/banking.svg");
+  }
+
+  &:nth-child(3)::before {
+    background-image: url("/images/consumer.svg");
+  }
+}
+
+.simple__list-big-text {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.138462px;
+  color: #36536b;
+}
+.simple__list-mini-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #6c8294;
+}
+.box {
+  max-width: 327px;
+  margin: 0 auto;
+}
+.big-text-one {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.246154px;
+  color: #36536b;
+}
+@media screen and (min-width: 720px) {
+  .simple {
+    padding: 100px 0;
+  }
+  .box {
+    max-width: 573px;
+  }
+  .big-text-one {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .simple__big-box {
+    font-size: 48px;
+  }
+  .simple__img {
+    width: 400px;
+    margin-bottom: 48px;
+  }
+
+  .simple__big-text {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .simple__mini-text {
+    margin-bottom: 100px;
+  }
+  .simple__list {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 100px;
+  }
+  .simple__itms {
+    max-width: 350px;
+    &:not(:nth-child(3)) {
+      margin-right: 10px;
+    }
+  }
+
+  .simple__text-box {
+    max-width: 445px;
+    margin: 0 auto;
+    animation: anni 3s infinite;
+  }
+
+  @keyframes anni {
+    0%,
+    100% {
+      transform: translateX(25px);
+    }
+
+    50% {
+      transform: translateY(0);
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .simple {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    background-image: url("/images/oposity-tumaloq.svg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: calc(50% + 628px) calc(50% + -296px);
+  }
+  .box {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .big-text-one {
+    font-size: 72px;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .simple__big-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .simple__img {
+    width: 570px;
+  }
+  .simple__text-box {
+    max-width: 445px;
+  }
+  .simple__big-text {
+    text-align: left;
+  }
+  .simple__mini-text {
+    text-align: left;
+  }
+
+  .form__botton {
+    right: -16px;
+  }
+  .form__botton-twoo {
+    width: 173px;
+    position: absolute;
+    top: 0;
+    right: 120px;
+    transition: all 0.5s ease;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
