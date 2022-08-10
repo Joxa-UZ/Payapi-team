@@ -610,15 +610,6 @@ body {
     opacity: 0.7;
   }
 }
-
-
-@media only screen and (min-width: 1024px) {
-  .site__body {
-    background-repeat: no-repeat;
-    background-position: calc(50% + 10px) calc(50% - 20px);
-    background-image: url("/images/oposity-tumaloq.svg");
-  }
-}
 .about_finance_inner {
   padding: 0 140px;
 }
@@ -1084,7 +1075,6 @@ body {
     padding: 16px 85px 14px 80px;
   }
 }
-
 .footer {
   padding-top: 47px;
   padding-bottom: 57px;
